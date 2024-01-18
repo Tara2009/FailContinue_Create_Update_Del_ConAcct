@@ -73,7 +73,7 @@ Update/Edit the Contact
     ClickText          Pleasehelp_1 Helptocreate_2
     ClickText          Details
     VerifyText         Mobile
-    VerifyText         (720) 720-7177
+    VerifyText         (820) 720-7177
     ClickText          Contacts
 
 
