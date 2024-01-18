@@ -17,6 +17,7 @@ Entering a Contacts
     ClickText              Contacts
     ClickUntil             New Contact                 New
     UseModal               On
+    TypeText               Person Location             JKC College Road
     TypeText               Phone                       +917396637450
     Picklist               Salutation                  Mr.
     TypeText               First Name                  Pleasehelp
