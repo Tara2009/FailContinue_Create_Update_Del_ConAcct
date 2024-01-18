@@ -20,8 +20,8 @@ Entering a Contacts
     TypeText           Person Location             JKC College Road orion restuant
     TypeText           Phone                       +919966116682
     Picklist           Salutation                  Mr.
-    TypeText           First Name                  Pleasehelp_5
-    TypeText           Last Name                   Helptocreate_6
+    TypeText           First Name                  Pleasehelp_7
+    TypeText           Last Name                   Helptocreate_8
     ComboBox           Search Accounts...          GenePoint
     TypeText           Email                       tvsh@gmail.com
     TypeText           Title                       project16
@@ -62,20 +62,19 @@ Update/Edit the Contact
     ClickText          Contacts
     ClickText          Select a List View: Contacts
     ClickText          All Contacts
-    TypeText           Search this list...         Pleasehelp_5\n
-    ClickText          Pleasehelp_5 Helptocreate_6
+    TypeText           Search this list...         Pleasehelp_7\n
+    ClickText          Pleasehelp_7 Helptocreate_8
     ClickText          Details
     ClickText          Edit Mobile
-    TypeText           Mobile                      2207207177
+    TypeText           Mobile                      3207207177
     ClickText          Save                        partial_match=False
     ClickText          Contacts
-    ClickText          Select a List View: Contacts
     ClickText          All Contacts
-    TypeText           Search this list...         Pleasehelp_5\n
-    ClickText          Pleasehelp_4 Helptocreate_5
+    TypeText           Search this list...         Pleasehelp_7\n
+    ClickText          Pleasehelp_7 Helptocreate_8
     ClickText          Details
     VerifyText         Mobile
-    VerifyText         (220) 720-7177
+    VerifyText         (320) 720-7177
     ClickText          Contacts
 
 Delete the Record from Contact
@@ -83,8 +82,8 @@ Delete the Record from Contact
     [Documentation]    Open the record from the Contact List and delete Selected Record from the Contact
     ClickText          Contacts
     ClickText          All Contacts
-    TypeText           Search this list...         Pleasehelp_3\n
-    ClickText          Pleasehelp_3 Helptocreate_4
+    TypeText           Search this list...         Pleasehelp_5\n
+    ClickText          Pleasehelp_5 Helptocreate_6
     ClickText          Details
     ClickText          Show more actions
     ClickText          Delete
@@ -92,6 +91,6 @@ Delete the Record from Contact
     VerifyText         Are you sure you want to delete this contact?
     ClickText          Delete
     ClickText          Contacts
-    ClickText          Select a List View: Contacts
+    #ClickText          Select a List View: Contacts
     ClickText          All Contacts
     Sleep              3s
