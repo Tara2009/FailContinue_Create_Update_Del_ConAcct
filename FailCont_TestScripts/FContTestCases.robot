@@ -20,8 +20,8 @@ Entering a Contacts
     TypeText           Person Location             JKC College Road orion restuant
     TypeText           Phone                       +919966116682
     Picklist           Salutation                  Mr.
-    TypeText           First Name                  Pleasehelp
-    TypeText           Last Name                   Helptocreate
+    TypeText           First Name                  Pleasehelp_1
+    TypeText           Last Name                   Helptocreate_2
     ComboBox           Search Accounts...          GenePoint
     TypeText           Email                       tvsh@gmail.com
     TypeText           Title                       project16
@@ -62,16 +62,18 @@ Update/Edit the Contact
     ClickText          Contacts
     ClickText          Select a List View: Contacts
     ClickText          All Contacts
-    TypeText           Search this list...         please\n
-    ClickText          Pleasehelp Helptocreate
+    TypeText           Search this list...         Pleasehelp_1\n
+    ClickText          Pleasehelp_1 Helptocreate_2
     ClickText          Details
     ClickText          Edit Mobile
-    TypeText           Mobile                      7207207177
+    TypeText           Mobile                      8207207177
     ClickText          Save                        partial_match=False
     ClickText          Contacts
-    TypeText           Search this list...         please\n
-    ClickText          Pleasehelp Helptocreate
+    TypeText           Search this list...         Pleasehelp_1\n
+    ClickText          Pleasehelp_1 Helptocreate_2
     ClickText          Details
     VerifyText         Mobile
     VerifyText         (720) 720-7177
     ClickText          Contacts
+
+
