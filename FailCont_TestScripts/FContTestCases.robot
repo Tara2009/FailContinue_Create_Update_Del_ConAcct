@@ -81,6 +81,7 @@ Delete the Record from Contact
     [Tags]             DeleteContact
     [Documentation]    Open the record from the Contact List and delete Selected Record from the Contact
     ClickText          Contacts
+    ClickText          Clear
     ClickText          All Contacts
     TypeText           Search this list...         Pleasehelp_5\n
     ClickText          Pleasehelp_5 Helptocreate_6
