@@ -73,9 +73,9 @@ Update/Edit the Contact
     ClickText                   Save                        partial_match=False
     ClickText                   Contacts
     Sleep                       3s
-    ClickText                   Select a List View: Contacts
+    ClickText                   Select a List View: Contacts                        recognition_mode=vision
     Sleep                       3s
-    ClickText                   All Contacts
+    ClickText                   All Contacts                                        recognition_mode=vision
     Sleep                       3s
     Log                         ${ContactUpdate}
     Log To Console              ${ContactUpdate}
