@@ -79,7 +79,7 @@ Update/Edit the Contact
     ClickText          Pleasehelp_11 Helptocreate_12
     ClickText          Details
     VerifyText         Mobile
-    VerifyText         (420) 720-7177
+    VerifyText         (620) 720-7177
     ClickText          Contacts
 
 Delete the Record from Contact
