@@ -68,7 +68,7 @@ Update/Edit the Contact
     ClickText          Pleasehelp_11 Helptocreate_12
     ClickText          Details
     ClickText          Edit Mobile
-    TypeText           Mobile                      5207207177
+    TypeText           Mobile                      6207207177
     ClickText          Save                        partial_match=False
     ClickText          Contacts
     ClickText          Select a List View: Contacts
@@ -76,10 +76,10 @@ Update/Edit the Contact
     Log                ${ContactUpdate}
     TypeText           Search this list...         Pleasehelp_11\n
     ClickText          Pleasehelp_11 Helptocreate_12
-    #ClickText          Details
-    #VerifyText         Mobile
-    #VerifyText         (420) 720-7177
-    #ClickText          Contacts
+    ClickText          Details
+    VerifyText         Mobile
+    VerifyText         (420) 720-7177
+    ClickText          Contacts
 
 Delete the Record from Contact
     [Tags]             DeleteContact
