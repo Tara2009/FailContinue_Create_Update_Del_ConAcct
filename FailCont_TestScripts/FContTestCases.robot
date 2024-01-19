@@ -72,8 +72,11 @@ Update/Edit the Contact
     TypeText                    Mobile                      6207207177
     ClickText                   Save                        partial_match=False
     ClickText                   Contacts
+    Sleep                       3s
     ClickText                   Select a List View: Contacts
+    Sleep                       3s
     ClickText                   All Contacts
+    Sleep                       3s
     Log                         ${ContactUpdate}
     Log To Console              ${ContactUpdate}
     TypeText                    Search this list...    Pleasehelp_11\n
