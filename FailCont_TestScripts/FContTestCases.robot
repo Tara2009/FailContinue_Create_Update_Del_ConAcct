@@ -92,7 +92,7 @@ Delete the Record from Contact
     [Tags]                      DeleteContact
     [Documentation]             Open the record from the Contact List and delete Selected Record from the Contact
     ClickText                   Contacts
-    #ClickText                  Clear
+    ClickText                  Clear
     Wait Until Keyword Succeeds                             1m                          5s           ClickText                   Select a List View: Contacts
     Wait Until Keyword Succeeds                             1m                          5s           ClickText                   All Contacts
     TypeText                    Search this list...         Pleasehelp_11\n
