@@ -101,8 +101,8 @@ Delete the Record from Contact
     ClickText                   Show more actions
     ClickText                   Delete
     UseModal                    On
-    VerifyText                 Are you sure you want to delete this contacts?
-    #Run Keyword And Ignore Error                            VerifyText                  Are you sure you want to delete this contacts?
+    #VerifyText                 Are you sure you want to delete this contacts?
+    Run Keyword And Ignore Error                            VerifyText                  Are you sure you want to delete this contacts?
     ClickText                   Delete
     UseModal                    Off
     Log                         ${ContactDelete}
