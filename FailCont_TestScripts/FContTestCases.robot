@@ -84,9 +84,9 @@ Delete the Record from Contact
     ClickText          Contacts
     ClickText          Clear
     ClickText          Select a List View: Contacts
-    ClickText          All Contacts                delay=2s
-    TypeText           Search this list...         Pleasehelp_9\n        delay=3s
-    ClickText          Pleasehelp_9 Helptocreate_10
+    ClickText          All Contacts                
+    TypeText           Search this list...         Pleasehelp_11\n        
+    ClickText          Pleasehelp_11 Helptocreate_12
     ClickText          Details
     ClickText          Show more actions
     ClickText          Delete
