@@ -72,8 +72,8 @@ Update/Edit the Contact
     TypeText                    Mobile                      6207207177
     ClickText                   Save                        partial_match=False
     ClickText                   Contacts
-    Wait Until Keyword Succeeds                             2m                          5s           ClickText                   Select a List View: Contacts
-    Wait Until Keyword Succeeds                             1m                          5s           ClickText                   All Contacts
+    ClickText                   Select a List View: Contacts
+    ClickText                   All Contacts
     Log                         ${ContactUpdate}
     Log To Console              ${ContactUpdate}
     TypeText                    Search this list...    Pleasehelp_11\n
