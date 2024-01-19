@@ -69,7 +69,8 @@ Update/Edit the Contact
     TypeText           Mobile                      5207207177
     ClickText          Save                        partial_match=False
     ClickText          Contacts
-    #ClickText          All Contacts
+    ClickText          Select a List View: Contacts
+    ClickText          All Contacts
     #TypeText           Search this list...         Pleasehelp_9\n
     #ClickText          Pleasehelp_9 Helptocreate_10
     #ClickText          Details
