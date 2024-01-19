@@ -76,7 +76,7 @@ Update/Edit the Contact
     Wait Until Keyword Succeeds                             1m                          5s           ClickText                   All Contacts
     Log                         ${ContactUpdate}
     Log To Console              ${ContactUpdate}
-    Wait Until Keyword Succeeds                             1m                          5s           TypeText                    Search this list...    Pleasehelp_11\n
+    TypeText                    Search this list...    Pleasehelp_11\n
     ClickText                   Pleasehelp_11 Helptocreate_12
     ClickText                   Details
     VerifyText                  Mobile
