@@ -79,20 +79,20 @@ Update/Edit the Contact
     Sleep                       3s
     Log                         ${ContactUpdate}
     Log To Console              ${ContactUpdate}
-    #ClickText                   Select a List View: Contacts
-    #ClickText                   All Contacts
-    #TypeText                    Search this list...         Pleasehelp_11\n
-    #ClickText                   Pleasehelp_11 Helptocreate_12
-    #ClickText                   Details
-    #VerifyText                  Mobile
-    #VerifyText                  (620) 720-7177
-    #ClickText                   Contacts
+    #ClickText                  Select a List View: Contacts
+    #ClickText                  All Contacts
+    #TypeText                   Search this list...         Pleasehelp_11\n
+    #ClickText                  Pleasehelp_11 Helptocreate_12
+    #ClickText                  Details
+    #VerifyText                 Mobile
+    #VerifyText                 (620) 720-7177
+    #ClickText                  Contacts
 
 Delete the Record from Contact
     [Tags]                      DeleteContact
     [Documentation]             Open the record from the Contact List and delete Selected Record from the Contact
     ClickText                   Contacts
-    ClickText                  Clear
+    ClickText                   Clear
     Wait Until Keyword Succeeds                             1m                          5s           ClickText                   Select a List View: Contacts
     Wait Until Keyword Succeeds                             1m                          5s           ClickText                   All Contacts
     TypeText                    Search this list...         Pleasehelp_11\n
@@ -101,8 +101,9 @@ Delete the Record from Contact
     ClickText                   Show more actions
     ClickText                   Delete
     UseModal                    On
-    #VerifyText                  Are you sure you want to delete this contact?
+    #VerifyText                 Are you sure you want to delete this contact?
     Run Keyword And Continue On Failure                     VerifyText                  Are you sure you want to delete this contacts?
+    Run Keyword And Ignore Error                            VerifyText                  Are you sure you want to delete this contacts?
     ClickText                   Delete
     UseModal                    Off
     Log                         ${ContactDelete}
