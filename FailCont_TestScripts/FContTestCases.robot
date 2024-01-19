@@ -8,6 +8,8 @@ Suite Teardown         End suite
 
 *** Variables ***
 ${ContactMessage}      Hup! Contact created Successfully.
+${ContactUpdate}       Yeap! Contact updated Successfully.
+${ContactDelete}       Yeap! Contact Delete Successfully.
 
 *** Test Cases ***
 Entering a Contacts
@@ -71,6 +73,7 @@ Update/Edit the Contact
     ClickText          Contacts
     ClickText          Select a List View: Contacts
     ClickText          All Contacts
+    Log                ${ContactUpdate}
     #TypeText           Search this list...         Pleasehelp_9\n
     #ClickText          Pleasehelp_9 Helptocreate_10
     #ClickText          Details
@@ -93,6 +96,7 @@ Delete the Record from Contact
     UseModal           On
     VerifyText         Are you sure you want to delete this contact?
     ClickText          Delete
+    Log                ${ContactDelete}
     #ClickText          Contacts
     #ClickText          Select a List View: Contacts
     #ClickText          All Contacts
