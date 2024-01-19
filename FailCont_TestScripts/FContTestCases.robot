@@ -72,19 +72,21 @@ Update/Edit the Contact
     TypeText                    Mobile                      6207207177
     ClickText                   Save                        partial_match=False
     ClickText                   Contacts
-    #Sleep                       3s
-    #ClickText                   Select a List View: Contacts                        
-    #Sleep                       3s
-    #ClickText                   All Contacts                                        
+    #Sleep                      3s
+    #ClickText                  Select a List View: Contacts
+    #Sleep                      3s
+    #ClickText                  All Contacts
     Sleep                       3s
     Log                         ${ContactUpdate}
     Log To Console              ${ContactUpdate}
-    TypeText                    Search this list...    Pleasehelp_11\n
-    ClickText                   Pleasehelp_11 Helptocreate_12
-    ClickText                   Details
-    VerifyText                  Mobile
-    VerifyText                  (620) 720-7177
-    ClickText                   Contacts
+    #ClickText                   Select a List View: Contacts
+    #ClickText                   All Contacts
+    #TypeText                    Search this list...         Pleasehelp_11\n
+    #ClickText                   Pleasehelp_11 Helptocreate_12
+    #ClickText                   Details
+    #VerifyText                  Mobile
+    #VerifyText                  (620) 720-7177
+    #ClickText                   Contacts
 
 Delete the Record from Contact
     [Tags]                      DeleteContact
@@ -98,10 +100,10 @@ Delete the Record from Contact
     ClickText                   Details
     ClickText                   Show more actions
     ClickText                   Delete
-    UseModal                   On
-    VerifyText                 Are you sure you want to delete this contact?
-    ClickText                  Delete
-    UseModal                   Off
+    UseModal                    On
+    VerifyText                  Are you sure you want to delete this contact?
+    ClickText                   Delete
+    UseModal                    Off
     Log                         ${ContactDelete}
     ClickText                   Contacts
     Wait Until Keyword Succeeds                             1m                          5s           ClickText                   Select a List View: Contacts
