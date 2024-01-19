@@ -74,6 +74,7 @@ Update/Edit the Contact
     ClickText          Select a List View: Contacts
     ClickText          All Contacts
     Log                ${ContactUpdate}
+    Log To Console     ${ContactUpdate}
     TypeText           Search this list...         Pleasehelp_11\n
     ClickText          Pleasehelp_11 Helptocreate_12
     ClickText          Details
