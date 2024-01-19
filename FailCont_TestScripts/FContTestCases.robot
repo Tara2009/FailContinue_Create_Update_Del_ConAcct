@@ -74,8 +74,8 @@ Update/Edit the Contact
     ClickText          Select a List View: Contacts
     ClickText          All Contacts
     Log                ${ContactUpdate}
-    #TypeText           Search this list...         Pleasehelp_9\n
-    #ClickText          Pleasehelp_9 Helptocreate_10
+    TypeText           Search this list...         Pleasehelp_11\n
+    ClickText          Pleasehelp_11 Helptocreate_12
     #ClickText          Details
     #VerifyText         Mobile
     #VerifyText         (420) 720-7177
