@@ -102,7 +102,7 @@ Delete the Record from Contact
     ClickText                   Delete
     UseModal                    On
     #VerifyText                 Are you sure you want to delete this contact?
-    Run Keyword And Continue On Failure                     VerifyText                  Are you sure you want to delete this contacts?
+    #Run Keyword And Continue On Failure                     VerifyText                  Are you sure you want to delete this contacts?
     Run Keyword And Ignore Error                            VerifyText                  Are you sure you want to delete this contacts?
     ClickText                   Delete
     UseModal                    Off
