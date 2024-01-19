@@ -95,9 +95,10 @@ Delete the Record from Contact
     ClickText                   Details
     ClickText                   Show more actions
     ClickText                   Delete
-    #UseModal                   On
-    #VerifyText                 Are you sure you want to delete this contact?
-    #ClickText                  Delete
+    UseModal                   On
+    VerifyText                 Are you sure you want to delete this contact?
+    ClickText                  Delete
+    UseModal                   Off
     Log                         ${ContactDelete}
     ClickText                   Contacts
     Wait Until Keyword Succeeds                             1m                          5s           ClickText                   Select a List View: Contacts
